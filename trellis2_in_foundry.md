@@ -151,4 +151,3 @@ HF_HUB_DISABLE_XET=1 python smoke-test.py
 
 ```
 
-If you see `✅ Generation Complete`, you have won.
