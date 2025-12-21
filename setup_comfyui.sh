@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# DO THIS: chmod +x setup_comfyui.sh
 set -e  # Exit immediately if a command exits with a non-zero status
 
 echo "### 1. Cloning ComfyUI Repository..."
