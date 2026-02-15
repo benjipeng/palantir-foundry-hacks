@@ -1,0 +1,24 @@
+package:
+  name: '{{ PACKAGE_NAME }}'
+  version: '{{ PACKAGE_VERSION }}'
+source:
+  path: ../src
+requirements:
+  run:
+  - ipykernel
+  - pip
+  - gcc_linux-64
+  - gxx
+  - ffmpeg
+  - huggingface_hub
+  - findutils
+  - less
+  - fzf
+  - unzip
+  - make
+  - bat
+  - shellcheck
+  - htop
+  - fd
+build:
+  noarch: python
