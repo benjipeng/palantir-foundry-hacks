@@ -19,6 +19,6 @@ requirements:
   - bat
   - shellcheck
   - htop
-  - fd
+  - fd-find
 build:
   noarch: python
